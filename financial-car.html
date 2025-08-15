@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>✨阿泥在哪裡？｜Sophia's Magic Corner🧙‍♀️</title>
+</head>
+<body>
+    <!-- Header 與 Navbar -->
+    <header class="top-app-bar">
+        <div class="app-bar-container">
+            <a href="./index.html" class="nav-link">✨阿泥在哪裡？｜Sophia's Magic Corner🧙‍♀️</a>
+            <nav class="nav-links">
+                <a href="./portfolio.html" class="nav-link">📔 Portfolio</a>
+                <a href="./casestudy.html" class="nav-link">📚 Case Study</a>
+                <a href="./blog.html" class="nav-link">📝 Blog</a>
+            </nav>
+            <button class="menu-icon" id="menu-toggle">
+                <span class="material-icons">menu</span>
+            </button>
+        </div>
+
+        <!-- 手機版 dropdown menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="./portfolio.html">📔 Portfolio</a>
+            <a href="./casestudy.html">📚 Case Study</a>
+            <a href="./blog.html">📝 Blog</a>
+        </div>
+    </header>
+    <article>
+        <h1>
+            財管購物車 | 作為規劃、設計包辦的數轉專員💪
+        </h1>
+        <div>
+            <p style="font-size: x-small;">發佈日期：coming soom...</p>
+        </div>
+    </article>
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
+    
+        menuToggle.addEventListener("click", () => {
+            mobileMenu.style.display = (mobileMenu.style.display === "flex") ? "none" : "flex";
+        });
+    </script>
+</body>
+</html>
