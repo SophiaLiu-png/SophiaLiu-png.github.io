@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>✨阿泥在哪裡？｜Sophia's Magic Corner🧙‍♀️</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Google Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Header 與 Navbar -->
+        <header class="top-app-bar">
+            <div class="app-bar-container">
+                <a href="./index.html" class="nav-link">✨阿泥在哪裡？｜Sophia's Magic Corner🧙‍♀️</a>
+                <nav class="nav-links">
+                    <a href="./portfolio.html" class="nav-link">📔 Portfolio</a>
+                    <a href="./casestudy.html" class="nav-link">📚 Case Study</a>
+                    <a href="./blog.html" class="nav-link">📝 Blog</a>
+                </nav>
+                <button class="menu-icon" id="menu-toggle">
+                    <span class="material-icons">menu</span>
+                </button>
+            </div>
+
+            <!-- 手機版 dropdown menu -->
+            <div class="mobile-menu" id="mobile-menu">
+                <a href="./portfolio.html">📔 Portfolio</a>
+                <a href="./casestudy.html">📚 Case Study</a>
+                <a href="./blog.html">📝 Blog</a>
+            </div>
+        </header>
+
+        <article>
+            <h2 class="section-title">📚 Case Study</h2>
+        </article>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3>✨阿泥在哪裡？｜Sophia's Magic Corner🧙‍♀️</h3>
+                    <p>
+                        哈囉👋我是阿泥（Sophia），目前就讀社會研究所，專注於社會網絡與金融社會學領域。<br>
+                        平常熱愛鑽研設計與科技，靠著網路資源自學UIUX，並和夥伴一起開發了時間管理工具 Timesaw Puzzle。<br>
+                        曾在金融業實習，參與財富管理平臺的購物車設計與規劃，也曾參與 UXTW 實戰營，協助優化線上學習平臺的使用體驗。
+                    </p>
+                    <p>
+                        如果你有什麼想分享或討論的，別猶豫，直接用
+                        <a href="mailto:sophia.lue1010@gmail.com">email</a>
+                        聯絡我吧！謝謝泥🦀
+                    </p>
+                </div>
+        
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/yu-ning-liu-834596210">LinkedIn</a>
+                </div>
+        
+                <div class="footer-copyright">
+                    &copy; 2025 阿泥在哪裡？｜Sophia's Magic Corner. All rights reserved.
+                </div>
+            </div>
+        </footer>
+        <script>
+            const menuToggle = document.getElementById("menu-toggle");
+            const mobileMenu = document.getElementById("mobile-menu");
+        
+            menuToggle.addEventListener("click", () => {
+                mobileMenu.style.display = (mobileMenu.style.display === "flex") ? "none" : "flex";
+            });
+        </script>
+        
+    </body>
+</html>
